@@ -1,3 +1,18 @@
+## Sobre a Criptografia de Júlio César
+
+Essa criptografia se baseia na substituição da letra do alfabeto avançado um determinado número de casas. Por exemplo, considerando o número de casas = 3:
+
+Normal: a ligeira raposa marrom saltou sobre o cachorro cansado
+
+Cifrado: d oljhlud udsrvd pduurp vdowrx vreuh r fdfkruur fdqvdgr
+
+Regras
+As mensagens serão convertidas para minúsculas tanto para a criptografia quanto para descriptografia.
+No nosso caso os números e pontos serão mantidos, ou seja:
+Normal: 1a.a
+
+Cifrado: 1d.d
+
 ## DESAFIO 
 
 Escrever programa, em qualquer linguagem de programação, que faça uma requisição HTTP para a url abaixo:
@@ -34,19 +49,3 @@ OBS: a API espera um arquivo sendo enviado como multipart/form-data, como se fos
 | `API_URL` | 'https://api.codenation.dev/v1/challenge/dev-ps/generate-data?token=TOKEN' | Url dada para fazer requisição HTTP | 
 | `arquivo` | 'C:\\Users\\luma.de.f.rodrigues\\python\\answer.json'| Caminho para criar o arquivo json no seu computador|
 | `url` | 'https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=TOKEN' | Url para fazer requisição post | 
-
-
-## Sobre a Criptografia de Júlio César
-
-Essa criptografia se baseia na substituição da letra do alfabeto avançado um determinado número de casas. Por exemplo, considerando o número de casas = 3:
-
-Normal: a ligeira raposa marrom saltou sobre o cachorro cansado
-
-Cifrado: d oljhlud udsrvd pduurp vdowrx vreuh r fdfkruur fdqvdgr
-
-Regras
-As mensagens serão convertidas para minúsculas tanto para a criptografia quanto para descriptografia.
-No nosso caso os números e pontos serão mantidos, ou seja:
-Normal: 1a.a
-
-Cifrado: 1d.d
